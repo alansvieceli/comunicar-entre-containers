@@ -1,6 +1,13 @@
 version: '3.4'
 
 services:
+
+  gateway:
+    image: gateway
+    build:
+      context: .
+      dockerfile: Gateway/Dockerfile
+
   servico01:
     image: servico01
     build:

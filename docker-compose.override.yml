@@ -1,6 +1,12 @@
 version: '3.4'
 
 services:
+  gateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "7000:80"
+
   servico01:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development

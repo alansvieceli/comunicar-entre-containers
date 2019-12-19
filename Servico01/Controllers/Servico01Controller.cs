@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace Servico01.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class Servico01Controller : ControllerBase
     {
         private static readonly string[] Summaries = new[]
