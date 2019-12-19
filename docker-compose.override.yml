@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  servico01:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6001:80"
+
+  servico02:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6002:80"

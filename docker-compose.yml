@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  servico01:
+    image: servico01
+    build:
+      context: .
+      dockerfile: Servico01/Dockerfile
+
+  servico02:
+    image: servico02
+    build:
+      context: .
+      dockerfile: Servico02/Dockerfile
